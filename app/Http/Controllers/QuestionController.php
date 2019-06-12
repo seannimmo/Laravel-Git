@@ -9,8 +9,11 @@ class QuestionController extends Controller
 {
     public function index()
     {
-        // $content = view("/questions/1");
-        // return $content;
         return "This is the list of questions";
     }
+
+    public function show()
+    {
+        return "This is a detail of a question";
+    }   
 }
